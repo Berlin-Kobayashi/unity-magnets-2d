@@ -54,6 +54,6 @@ public class Magnetic : MonoBehaviour
 
     float getMagneticForce(double distance, double mass)
     {
-        return (float)Math.Pow(mass, distance * -1 ) * 2;
+        return (float)Math.Pow(mass, distance * -1 ) / 8;
     }
 }
